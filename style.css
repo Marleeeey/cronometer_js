@@ -1,0 +1,30 @@
+#couantinaer {
+    text-align: center;
+    background-color: black;
+    width: 500px;
+    height: 150px;
+    border-radius: 24px;
+}
+
+#timerDisplay {
+    color: green;
+    font-family: consolas, monospace;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.timerBtn {
+    border: 1px solid #ffff;
+    background-color: #222222;
+    color: #fff;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    font-family: consolas, monospace;
+    border-radius: 5px;
+    animation: all .4s ease-in-out;
+}
+
+.timerBtn:active {
+    opacity: 0.9;
+}
